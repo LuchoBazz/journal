@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Personal Journal',
+  title: "LuchoBazz's Journal",
   tagline: 'Dinosaurs are cool',
   favicon: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Emoji_u263a.svg',
 
@@ -78,9 +78,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Emoji_u263a.svg',
     navbar: {
-      title: 'My Personal Journal',
+      title: "LuchoBazz's Journal",
       logo: {
-        alt: 'My Personal Journal',
+        alt: "LuchoBazz's Journal",
         src: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Emoji_u263a.svg',
       },
       items: [
