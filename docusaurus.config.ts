@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Docusaurus Personal Starter Kit',
+  title: 'My Personal Journal',
   tagline: 'Dinosaurs are cool',
   favicon: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Emoji_u263a.svg',
 
@@ -11,12 +11,12 @@ const config: Config = {
   url: 'https://luchobazz.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docusaurus-personal-starter-kit',
+  baseUrl: '/journal',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'LuchoBazz', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-personal-starter-kit', // Usually your repo name.
+  projectName: 'journal', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['en', 'es'],
   },
 
   themes: [
@@ -34,7 +34,13 @@ const config: Config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       ({
         hashed: true,
-        language: ['en', 'es']
+        language: ['en', 'es'],
+        docsRouteBasePath: '/',
+        blogRouteBasePath: '/blog',
+        docsDir: [],
+        indexBlog: true,
+        indexDocs: false,
+        indexPages: true
       }),
     ],
   ],
@@ -43,15 +49,7 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          remarkPlugins: [require('remark-math')],
-          rehypePlugins: [require('rehype-katex')],
-        },
+        docs: false,
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -66,32 +64,33 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          rehypePlugins: [require('rehype-katex')],
+          remarkPlugins: [require('remark-math')],
         },
         theme: {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
-    ],
+    ]
   ],
 
   themeConfig: {
     // Replace with your project's social card
     image: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Emoji_u263a.svg',
     navbar: {
-      title: 'Docusaurus Personal Starter Kit',
+      title: 'My Personal Journal',
       logo: {
-        alt: 'Docusaurus Personal Starter Kit',
+        alt: 'My Personal Journal',
         src: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Emoji_u263a.svg',
       },
       items: [
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docs',
+          type: 'localeDropdown',
+          position: 'right'
         },
         {
-          href: 'https://github.com/LuchoBazz/docusaurus-personal-starter-kit',
+          href: 'https://github.com/LuchoBazz/journal',
           label: 'GitHub',
           position: 'right',
         },
@@ -100,15 +99,6 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Docs',
-              to: '/docs/intro',
-            },
-          ],
-        },
         {
           title: 'Community',
           items: [
