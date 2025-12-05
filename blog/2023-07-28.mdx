@@ -5,7 +5,7 @@ authors: luchobazz
 tags: [TrainingCampArgentina, ProgramaciónCompetitiva, TravelDiaries, Argentina, LifeOfADeveloper, Codeforces, GrowthMindset]
 ---
 
-import { ReactPhotoCollage } from "react-photo-collage";
+import PhotoCollage from "@site/src/components/PhotoCollage";
 
 
 El objetivo era claro: asistir al Training Camp Argentina 2023. Durante mis años universitarios soñaba con participar en este evento, el más reconocido de habla hispana en Latinoamérica para la programación competitiva, donde se dominan temas complejos de matemáticas discretas, lógica y algoritmos avanzados. En aquella época de estudiante el dinero no alcanzaba, pero ahora que trabajaba y había logrado reunir los fondos, no iba a dejar pasar la oportunidad.
@@ -14,75 +14,21 @@ Fue una aventura decidida a última hora, apenas quince días antes de partir. A
 
 
 export const photos = [
-  { source: require("@site/static/images/tc-argentina/argentina-1-ghibli.png").default, alt: "Training Camp Argentina 1" },
-  { source: require("@site/static/images/tc-argentina/argentina-2-ghibli.png").default, alt: "Training Camp Argentina 2" },
-  { source: require("@site/static/images/tc-argentina/argentina-3-ghibli.png").default, alt: "Training Camp Argentina 3" },
-  { source: require("@site/static/images/tc-argentina/argentina-4-ghibli.png").default, alt: "Training Camp Argentina 4" },
-  { source: require("@site/static/images/tc-argentina/argentina-5-ghibli.png").default, alt: "Training Camp Argentina 5" },
-  { source: require("@site/static/images/tc-argentina/argentina-6-ghibli.png").default, alt: "Training Camp Argentina 6" },
-  { source: require("@site/static/images/tc-argentina/argentina-7-ghibli.png").default, alt: "Training Camp Argentina 7" },
-  { source: require("@site/static/images/tc-argentina/argentina-8-ghibli.png").default, alt: "Training Camp Argentina 8" },
-  { source: require("@site/static/images/tc-argentina/argentina-9-ghibli.png").default, alt: "Training Camp Argentina 9" },
-  { source: require("@site/static/images/tc-argentina/argentina-11-ghibli.png").default, alt: "Training Camp Argentina 11" },
-  { source: require("@site/static/images/tc-argentina/argentina-12-ghibli.png").default, alt: "Training Camp Argentina 12" },
-  { source: require("@site/static/images/tc-argentina/argentina-13-ghibli.png").default, alt: "Training Camp Argentina 13" },
-  { source: require("@site/static/images/tc-argentina/argentina-14-ghibli.png").default, alt: "Training Camp Argentina 14" },
-  { source: require("@site/static/images/tc-argentina/argentina-15-ghibli.png").default, alt: "Training Camp Argentina 15" },
-  { source: require("@site/static/images/tc-argentina/argentina-16-ghibli.png").default, alt: "Training Camp Argentina 16" },
-  { source: require("@site/static/images/tc-argentina/argentina-17-ghibli.png").default, alt: "Training Camp Argentina 17" },
-  { source: require("@site/static/images/tc-argentina/argentina-18-ghibli.png").default, alt: "Training Camp Argentina 18" },
-  { source: require("@site/static/images/tc-argentina/argentina-19-ghibli.png").default, alt: "Training Camp Argentina 19" },
-  { source: require("@site/static/images/tc-argentina/argentina-20-ghibli.png").default, alt: "Training Camp Argentina 20" },
-  { source: require("@site/static/images/tc-argentina/argentina-21-ghibli.png").default, alt: "Training Camp Argentina 21" },
-  { source: require("@site/static/images/tc-argentina/argentina-22-ghibli.png").default, alt: "Training Camp Argentina 22" },
-  { source: require("@site/static/images/tc-argentina/argentina-23-ghibli.png").default, alt: "Training Camp Argentina 23" },
-  { source: require("@site/static/images/tc-argentina/argentina-24-ghibli.png").default, alt: "Training Camp Argentina 24" },
-  { source: require("@site/static/images/tc-argentina/argentina-25-ghibli.png").default, alt: "Training Camp Argentina 25" },
-  { source: require("@site/static/images/tc-argentina/argentina-26-ghibli.png").default, alt: "Training Camp Argentina 26" },
-  { source: require("@site/static/images/tc-argentina/argentina-27-ghibli.png").default, alt: "Training Camp Argentina 27" },
-  { source: require("@site/static/images/tc-argentina/argentina-28-ghibli.png").default, alt: "Training Camp Argentina 28" },
-  { source: require("@site/static/images/tc-argentina/argentina-29-ghibli.png").default, alt: "Training Camp Argentina 29" },
-  { source: require("@site/static/images/tc-argentina/argentina-30-ghibli.png").default, alt: "Training Camp Argentina 30" },
-  { source: require("@site/static/images/tc-argentina/argentina-31-ghibli.png").default, alt: "Training Camp Argentina 31" },
-  { source: require("@site/static/images/tc-argentina/argentina-32-ghibli.png").default, alt: "Training Camp Argentina 32" },
-  { source: require("@site/static/images/tc-argentina/argentina-33-ghibli.png").default, alt: "Training Camp Argentina 33" },
-  { source: require("@site/static/images/tc-argentina/argentina-34-ghibli.png").default, alt: "Training Camp Argentina 34" },
-  { source: require("@site/static/images/tc-argentina/argentina-35-ghibli.png").default, alt: "Training Camp Argentina 35" },
-  { source: require("@site/static/images/tc-argentina/argentina-36-ghibli.png").default, alt: "Training Camp Argentina 36" },
-  { source: require("@site/static/images/tc-argentina/argentina-37-ghibli.png").default, alt: "Training Camp Argentina 37" },
-  { source: require("@site/static/images/tc-argentina/argentina-38-ghibli.png").default, alt: "Training Camp Argentina 38" },
-  { source: require("@site/static/images/tc-argentina/argentina-39-ghibli.png").default, alt: "Training Camp Argentina 39" },
-  { source: require("@site/static/images/tc-argentina/argentina-40-ghibli.png").default, alt: "Training Camp Argentina 40" },
-  { source: require("@site/static/images/tc-argentina/argentina-41-ghibli.png").default, alt: "Training Camp Argentina 41" },
-  { source: require("@site/static/images/tc-argentina/argentina-42-ghibli.png").default, alt: "Training Camp Argentina 42" },
-  { source: require("@site/static/images/tc-argentina/argentina-43-ghibli.png").default, alt: "Training Camp Argentina 43" },
-  { source: require("@site/static/images/tc-argentina/argentina-44-ghibli.png").default, alt: "Training Camp Argentina 44" },
-  { source: require("@site/static/images/tc-argentina/argentina-45-ghibli.png").default, alt: "Training Camp Argentina 45" },
-  { source: require("@site/static/images/tc-argentina/argentina-46-ghibli.png").default, alt: "Training Camp Argentina 46" },
-  { source: require("@site/static/images/tc-argentina/argentina-47-ghibli.png").default, alt: "Training Camp Argentina 47" },
-  { source: require("@site/static/images/tc-argentina/argentina-48-ghibli.png").default, alt: "Training Camp Argentina 48" },
-  { source: require("@site/static/images/tc-argentina/argentina-49-ghibli.png").default, alt: "Training Camp Argentina 49" },
-  { source: require("@site/static/images/tc-argentina/argentina-50-ghibli.png").default, alt: "Training Camp Argentina 50" },
-  { source: require("@site/static/images/tc-argentina/argentina-51-ghibli.png").default, alt: "Training Camp Argentina 51" },
-  { source: require("@site/static/images/tc-argentina/argentina-52-ghibli.png").default, alt: "Training Camp Argentina 52" },
-  { source: require("@site/static/images/tc-argentina/argentina-53-ghibli.png").default, alt: "Training Camp Argentina 53" },
-  { source: require("@site/static/images/tc-argentina/argentina-54-ghibli.png").default, alt: "Training Camp Argentina 54" },
-  { source: require("@site/static/images/tc-argentina/argentina-55-ghibli.png").default, alt: "Training Camp Argentina 55" },
-  { source: require("@site/static/images/tc-argentina/argentina-56-ghibli.png").default, alt: "Training Camp Argentina 56" },
-  { source: require("@site/static/images/tc-argentina/argentina-57-ghibli.png").default, alt: "Training Camp Argentina 57" }
+  { source: require("@site/static/images/tc-argentina/argentina-1-ghibli.png").default, alt: "Training Camp Argentina 1" }
 ];
 
-<ReactPhotoCollage
+<PhotoCollage
   width="600px"
   height={["250px","170px"]}
   layout={[1,4]}
   photos={photos}
   showNumOfRemainingPhotos={true}
-/>
-
-<p style={{ textAlign: "center", fontStyle: "italic" }}>
+  caption={
+    <p style={{ textAlign: "center", fontStyle: "italic" }}>
   Una pequeña colección visual que inspiró este sueño algorítmico.
 </p>
+  }
+/>
 
 
 La travesía comenzó en Circasia el 28 de julio. A las 6:00 PM salí rumbo a la terminal de Armenia junto a mi hermano Juan, quien viajaba a la capital para iniciar su semestre de psicología en la Universidad Nacional de Colombia. Abordamos el bus de las 8:00 PM y, tras un largo recorrido nocturno, arribamos a la Terminal Salitre de Bogotá entre las 2:00 y las 3:00 de la madrugada del 29 de julio. Sin perder tiempo, tomamos un taxi juntos hacia el Aeropuerto Internacional El Dorado.
@@ -187,15 +133,16 @@ export const photos1 = [
   { source: "https://images.unsplash.com/photo-1464550838636-1a3496df938b?ixlib=rb-0.3.5&auto=format&fit=crop&w=888&q=80", alt: "Descripción 7" }
 ];
 
-<ReactPhotoCollage
+<PhotoCollage
   width="600px"
   height={["250px","170px"]}
   layout={[1,4]}
   photos={photos1}
   showNumOfRemainingPhotos={true}
+  caption={
+    <span>
+      Una pequeña colección visual que inspiró este sueño algorítmico.
+    </span>
+  }
 />
-
-<p style={{ textAlign: "center", fontStyle: "italic" }}>
-  Una pequeña colección visual que inspiró este sueño algorítmico.
-</p>
 ---
