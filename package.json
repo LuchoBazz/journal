@@ -53,6 +53,6 @@
     "node": ">=24.0"
   },
   "overrides": {
-    "react-focus-on": "3.9.3"
+    "react-focus-on": "3.10.1"
   }
 }
