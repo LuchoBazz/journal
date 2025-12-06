@@ -26,7 +26,6 @@
     "prism-react-renderer": "^2.4.1",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
-    "react-photo-collage": "^1.0.9",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
     "styled-components": "^6.1.19"
@@ -51,8 +50,5 @@
   },
   "engines": {
     "node": ">=24.0"
-  },
-  "overrides": {
-    "react-focus-on": "3.10.1"
   }
 }
