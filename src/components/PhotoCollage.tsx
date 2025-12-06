@@ -55,13 +55,19 @@ const PhotoCollage: React.FC<PhotoCollageProps> = ({ width, height, layout, phot
   }, [lightboxIndex, closeLightbox, nextImage, prevImage]);
 
   const renderRow = (rowPhotos: Photo[], rowHeight: string, rowIndex: number, startIndex: number) => {
+    const isSingleTotal = photos.length === 1;
     return (
       <div key={rowIndex} className={styles.row} style={{ height: rowHeight }}>
         {rowPhotos.map((photo, i) => {
           const globalIndex = startIndex + i;
           return (
             <div key={i} className={styles.photoContainer} onClick={() => openLightbox(globalIndex)}>
-              <img src={photo.source} alt={photo.alt} className={styles.photo} />
+              <img
+                src={photo.source}
+                alt={photo.alt}
+                className={styles.photo}
+                style={isSingleTotal ? { objectFit: 'contain' } : undefined}
+              />
             </div>
           );
         })}
@@ -75,6 +81,8 @@ const PhotoCollage: React.FC<PhotoCollageProps> = ({ width, height, layout, phot
     <>
       <div className={styles.collage} style={{ width }}>
         {layout.map((numPhotos, rowIndex) => {
+          if (photoIndex >= photos.length) return null;
+
           const startIndex = photoIndex;
           const rowPhotos = photos.slice(photoIndex, photoIndex + numPhotos);
           const rowHeight = height[rowIndex];
