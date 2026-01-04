@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>LuchoBazz's Journal Blog</title>
+        <link>https://luchobazz.github.io/journal/en/blog</link>
+        <description>LuchoBazz's Journal Blog</description>
+        <lastBuildDate>Sun, 10 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Entre el Danubio y el Sava: Memorias de un Verano en el Este]]></title>
+            <link>https://luchobazz.github.io/journal/en/blog/2025/08/10/</link>
+            <guid>https://luchobazz.github.io/journal/en/blog/2025/08/10/</guid>
+            <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Un viaje en solitario descubriendo la majestuosidad de Budapest y la resiliencia de Belgrado. Caminatas por fortalezas antiguas, encuentros culturales y la belleza de perderse para encontrarse.]]></description>
+            <category>memorias</category>
+            <category>cultura</category>
+            <category>europa-del-este</category>
+            <category>historia</category>
+            <category>río-danubio</category>
+            <category>belgrado</category>
+            <category>novi-sad</category>
+            <category>budapest</category>
+            <category>arquitectura</category>
+        </item>
+        <item>
+            <title><![CDATA[From Malta to the 'Dolce Vita': My 2025 Italian Adventure]]></title>
+            <link>https://luchobazz.github.io/journal/en/blog/2025/06/22/</link>
+            <guid>https://luchobazz.github.io/journal/en/blog/2025/06/22/</guid>
+            <pubDate>Sun, 22 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Where History Comes Alive: My Days in the Eternal City.]]></description>
+            <content:encoded><![CDATA[<p>Not available yet</p>]]></content:encoded>
+            <category>Italy</category>
+            <category>Rome</category>
+            <category>Milan</category>
+            <category>Malta</category>
+            <category>Eurotrip</category>
+            <category>Colosseum</category>
+            <category>Vatican</category>
+            <category>San Siro</category>
+            <category>History</category>
+            <category>Football</category>
+        </item>
+        <item>
+            <title><![CDATA[From the Andes to the Mediterranean: My Journey to Malta]]></title>
+            <link>https://luchobazz.github.io/journal/en/blog/2025/01/20/</link>
+            <guid>https://luchobazz.github.io/journal/en/blog/2025/01/20/</guid>
+            <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[8,000 Kilometers for a Dream: Bogotá, Madrid, and Valletta]]></description>
+            <content:encoded><![CDATA[<p>Not available yet</p>]]></content:encoded>
+            <category>MaltaExperience</category>
+            <category>Colombia</category>
+            <category>Spain</category>
+            <category>Malta</category>
+            <category>English</category>
+            <category>AMLanguage</category>
+        </item>
+        <item>
+            <title><![CDATA[Journey to the 2023 Training Camp]]></title>
+            <link>https://luchobazz.github.io/journal/en/blog/2023/07/28/</link>
+            <guid>https://luchobazz.github.io/journal/en/blog/2023/07/28/</guid>
+            <pubDate>Fri, 28 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[4,800 kilometers. Two weeks. One dream to pursue.]]></description>
+            <content:encoded><![CDATA[<p>Not available yet</p>]]></content:encoded>
+            <category>TrainingCampArgentina</category>
+            <category>CompetitiveProgramming</category>
+            <category>TravelDiaries</category>
+            <category>Argentina</category>
+            <category>LifeOfADeveloper</category>
+            <category>Codeforces</category>
+            <category>GrowthMindset</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,1 @@
+(globalThis.webpackChunkjournal=globalThis.webpackChunkjournal||[]).push([[5741],{5741:()=>{}}]);

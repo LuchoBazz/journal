@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://luchobazz.github.io/journal/en/blog</id>
+    <title>LuchoBazz's Journal Blog</title>
+    <updated>2025-08-10T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://luchobazz.github.io/journal/en/blog"/>
+    <subtitle>LuchoBazz's Journal Blog</subtitle>
+    <icon>https://luchobazz.github.io/journal/en/https://upload.wikimedia.org/wikipedia/commons/e/ef/Emoji_u263a.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Entre el Danubio y el Sava: Memorias de un Verano en el Este]]></title>
+        <id>https://luchobazz.github.io/journal/en/blog/2025/08/10/</id>
+        <link href="https://luchobazz.github.io/journal/en/blog/2025/08/10/"/>
+        <updated>2025-08-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Un viaje en solitario descubriendo la majestuosidad de Budapest y la resiliencia de Belgrado. Caminatas por fortalezas antiguas, encuentros culturales y la belleza de perderse para encontrarse.]]></summary>
+        <author>
+            <name>Luis Miguel Báez</name>
+            <uri>https://github.com/LuchoBazz</uri>
+        </author>
+        <category label="memorias" term="memorias"/>
+        <category label="cultura" term="cultura"/>
+        <category label="europa-del-este" term="europa-del-este"/>
+        <category label="historia" term="historia"/>
+        <category label="río-danubio" term="río-danubio"/>
+        <category label="belgrado" term="belgrado"/>
+        <category label="novi-sad" term="novi-sad"/>
+        <category label="budapest" term="budapest"/>
+        <category label="arquitectura" term="arquitectura"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Malta to the 'Dolce Vita': My 2025 Italian Adventure]]></title>
+        <id>https://luchobazz.github.io/journal/en/blog/2025/06/22/</id>
+        <link href="https://luchobazz.github.io/journal/en/blog/2025/06/22/"/>
+        <updated>2025-06-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Where History Comes Alive: My Days in the Eternal City.]]></summary>
+        <content type="html"><![CDATA[<p>Not available yet</p>]]></content>
+        <author>
+            <name>Luis Miguel Báez</name>
+            <uri>https://github.com/LuchoBazz</uri>
+        </author>
+        <category label="Italy" term="Italy"/>
+        <category label="Rome" term="Rome"/>
+        <category label="Milan" term="Milan"/>
+        <category label="Malta" term="Malta"/>
+        <category label="Eurotrip" term="Eurotrip"/>
+        <category label="Colosseum" term="Colosseum"/>
+        <category label="Vatican" term="Vatican"/>
+        <category label="San Siro" term="San Siro"/>
+        <category label="History" term="History"/>
+        <category label="Football" term="Football"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From the Andes to the Mediterranean: My Journey to Malta]]></title>
+        <id>https://luchobazz.github.io/journal/en/blog/2025/01/20/</id>
+        <link href="https://luchobazz.github.io/journal/en/blog/2025/01/20/"/>
+        <updated>2025-01-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[8,000 Kilometers for a Dream: Bogotá, Madrid, and Valletta]]></summary>
+        <content type="html"><![CDATA[<p>Not available yet</p>]]></content>
+        <author>
+            <name>Luis Miguel Báez</name>
+            <uri>https://github.com/LuchoBazz</uri>
+        </author>
+        <category label="MaltaExperience" term="MaltaExperience"/>
+        <category label="Colombia" term="Colombia"/>
+        <category label="Spain" term="Spain"/>
+        <category label="Malta" term="Malta"/>
+        <category label="English" term="English"/>
+        <category label="AMLanguage" term="AMLanguage"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Journey to the 2023 Training Camp]]></title>
+        <id>https://luchobazz.github.io/journal/en/blog/2023/07/28/</id>
+        <link href="https://luchobazz.github.io/journal/en/blog/2023/07/28/"/>
+        <updated>2023-07-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[4,800 kilometers. Two weeks. One dream to pursue.]]></summary>
+        <content type="html"><![CDATA[<p>Not available yet</p>]]></content>
+        <author>
+            <name>Luis Miguel Báez</name>
+            <uri>https://github.com/LuchoBazz</uri>
+        </author>
+        <category label="TrainingCampArgentina" term="TrainingCampArgentina"/>
+        <category label="CompetitiveProgramming" term="CompetitiveProgramming"/>
+        <category label="TravelDiaries" term="TravelDiaries"/>
+        <category label="Argentina" term="Argentina"/>
+        <category label="LifeOfADeveloper" term="LifeOfADeveloper"/>
+        <category label="Codeforces" term="Codeforces"/>
+        <category label="GrowthMindset" term="GrowthMindset"/>
+    </entry>
+</feed>
