@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkjournal=globalThis.webpackChunkjournal||[]).push([[4583],{6866(u,a,n){n.r(a),n.d(a,{default:()=>e});var l=n(6540),r=n(6347),s=n(4848);function e(){const u=(0,r.W6)();return(0,l.useEffect)(()=>{u.push("/journal/blog")},[u]),(0,s.jsx)(s.Fragment,{})}}}]);
