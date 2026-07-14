@@ -55,5 +55,8 @@
     "@swc/core",
     "core-js",
     "core-js-pure"
-  ]
+  ],
+  "overrides": {
+    "webpackbar": "7.0.0"
+  }
 }
